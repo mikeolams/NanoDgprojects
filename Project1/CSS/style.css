@@ -1,0 +1,137 @@
+
+*{box-sizing: border-box;
+  background-color: #fbf5f3;}
+
+#innerContainer, #stats, #bodyContainer,.workContainerIn{display: flex;}
+
+#innerContainer {padding: 0 5% 0 5%;}
+
+.headerContainer {margin-left: 20%;}
+
+.subheader {margin-left:20vw;}
+
+section.subheader>#photo {text-align: center;}
+
+#name {font:lighter 50px 'Oleo Script', cursive /*Georgia, serif*/ /*'Poiret One', cursive *//*Amatic SC Russo One*/; }
+
+#designation {font: bold 15px Georgia, serif;
+          text-align: right;}
+
+.logo {padding-top:5%; 
+      font-size: 6px;}
+
+.photo  {font-size: 40px;}
+
+aside>img {width: 7vw;}
+
+img {max-width: 100%;}
+
+#headerLine { overflow: visible; /* For IE */
+              height: 30px;
+              border-style: solid;
+              border-color: black;
+              border-width: 1px 0 0 0;
+              border-radius: 20px;}
+
+#headerLine:before { /* Not really supposed to work, but does */
+                    display: block;
+                    content: "";
+                    height: 30px;
+                    margin-top: -31px;
+                    border-style: solid;
+                    border-color: black;
+                    border-width: 0 0 1px 0;
+                    border-radius: 20px;}
+
+#bodyContainer>#mainArticle {margin-left:6px;
+                width:calc((100%-6px)/1);}
+
+.copyright,#bodyContainer>#mainArticle,a {max-width: 100%;}
+
+#sideArticle  {max-width: 20%;
+              margin-right: 6%;}
+
+#stats {font-size:100%;}
+
+section.projectWork {margin-right:10px;
+              max-width: 80vw;
+              min-height: 4vw;
+              width:calc((100%-10px)/4);
+              text-align: center;
+              flex: wrap;}
+
+#footerLine {border-top: 2px dashed #8c8b8b;}
+
+
+.icon-alone {display: inline-block;}
+
+/*[data-icon]:before {
+                    font-family: icons;
+                    content: attr(data-icon);
+                    speak: none;}
+
+.icon-alone {display: inline-block; }
+
+.screen-reader-text {position: absolute;
+                      top: -9999px;
+                      left: -9999px;}*/
+
+[data-icon]:before {font-family: icons;
+                    content: attr(data-icon);
+                    speak: none;}
+
+.icon-alone {display: inline-block;}
+
+.screen-reader-text { /* Reusable, toolbox kind of class */
+                      position: absolute;
+                      top: -9999px;
+                      left: -9999px;}
+
+#contactContainer {text-align: center;
+                    letter-spacing: 2px;}
+
+section > a {margin-right:15px;
+              width:calc((100%-15px)/5);}
+
+.copyright  {display: block;
+              -webkit-margin-before: 1em;
+              -webkit-margin-after: 1em;
+              -webkit-margin-start: 0px;
+              -webkit-margin-end: 0px;
+              color: #9c9c9c;
+              font-size: 13px;
+              letter-spacing: 1px;
+              line-height: 100%;
+              padding: 16px 0 20px;
+              word-spacing: 1px;
+              font-family: "Roboto", Helvetica, Arial, sans-serif;
+                color: #ffffff;
+              background: #000000;
+              box-sizing: border-box;
+                -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+              margin: 0 0 10px;
+              box-sizing: border-box;
+              text-align: center;}
+
+@media screen and (max-width:404px) {
+                .subheader {margin-left:10%;}
+                }
+
+@media screen and (max-width:550px) {
+                #bodyContainer,.workContainerIn{
+                  display:flex;
+                flex-wrap:wrap;}
+
+                .headerContainer {margin-left: 0;}
+                      #sideArticle, #mainArticle {
+                      width:100%;}
+
+                #mainArticle{order: -1;}
+                #sideArticle{max-width: 100%;}
+                }
+
+@media screen and (min-width:1200px) {
+                body{width:1200px;
+                margin-left:auto;
+                margin-right:auto;}
+                }
