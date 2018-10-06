@@ -1,0 +1,6 @@
+adding remote directory
+ git remote add game2 https://github.com/mikeolams/memory-game-fend-project.git
+
+
+Un related directory resolve
+git pull game2 master --allow-unrelated-histories
