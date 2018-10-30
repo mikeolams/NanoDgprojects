@@ -1,6 +1,70 @@
 adding remote directory
  git remote add game2 https://github.com/mikeolams/memory-game-fend-project.git
 
-
 Un related directory resolve
 git pull game2 master --allow-unrelated-histories
+
+git add . all the files from my local repository.
+git commit -m "message here" to add messages to my commits.
+git push origin master to upload my files to GitHub.
+git push heroku master to upload my files to Heroku.
+
+
+
+
+Hi Victor,
+
+My name is Michael from Nigeria, a Nanodegree scholar at Udacity. I will like to expand my network and I will be pleased to add you.
+
+Thank you for your time.
+
+Regards
+
+
+
+
+Sagarnil Das  
+· 2nd
+Manager,Data Science at C&D lab,Reviewer at Udacity,Alumni of AIND, DAND and MLND nanodegree, Robotics enthusiast
+
+
+
+Ajaegbu Shedrack  
+· 3rd
+Front End Developer
+Olunu Abiodun  
+· 3rd
+Front-End Web Developer
+
+
+
+Hi,
+
+My name is Michael, a Nano degree Scholar at Udacity. I will like to expand my network and I will be pleased to add you.
+
+Thank you for your time.
+Regards
+
+
+Required
+Use the following items to tell us more about your projects:
+
+Explain what the project is and briefly how it was developed.
+Use industry keywords in your description.
+Include results, metrics, and findings.
+Provide links to off-site media (ie. Source Code, GitHub, Personal Site, Video Walkthroughs, Presentations, etc.).
+
+https://review.udacity.com/#!/rubrics/1910/view
+https://docs.google.com/document/d/e/2PACX-1vRsryXtKM4HTYOujmTsGbU7JT0PSWcVq9xAQlXQEg00rLQMWplLQlxf3PYDIO0YycGduLpClN3f_RN-/pub?embedded=true
+https://career-resource-center.udacity.com/networking/informational-interviews
+
+
+Michael
+
+
+
+
+mad comment promt exit
+:qa! then press enter
+
+exec.texem.co.uk

@@ -9,18 +9,19 @@
         <link rel="stylesheet" href="css/style.css">
 
     </head>
-    <body class="page">
-        <main>
-            <section id ="cat-section">
+    <body>
+        <main class="page">
+
+            <aside class ="catArray">
+                <ol id="catList"></ol>
+            </aside>
+
+            <section id ="catDisplaysection">
                 <header>INSPIRATION</header>
-                <div>Number of CatClick:<span></span></div>
-                <div id ="cats">
-                    <p class ="catname"><span id="catone"></span>
-                    <img src="img/CatClicker.jpg" alt="Cat Image"></p>
-                     <p class ="catname"><span id="cattwo"></span>
-                    <img src="img/Cattwo.jpg" alt="Second Cat Image"> </p>
-                </div>
+                <div>Number of CatClick:<span id="clickCount"></span></div>
+                <div class ="catname"><span id="cat"></span></div>                    
             </section>
+
         </main>
         <script src="Js/javaScript.js"></script>
     </body>
